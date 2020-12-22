@@ -14,7 +14,7 @@ bvsbvbsivb
 ### Gif's 💡
 
 
-### Color
+### Color #28a745
 The color of the image depend on the characters status, Alive - Green, Dead - Red, Unknown - Gray.
 
 Object created
