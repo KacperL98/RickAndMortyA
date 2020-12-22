@@ -47,8 +47,43 @@ this, RickAndMortyStatus.getStatusColor(it.status)
 
 ### Data
 
+Data displayed from the first screen on the adapter
 
-the data displayed in the first hit in the adapter
+![Screenshot_20201222-165047_RickAndMortyA](https://user-images.githubusercontent.com/75754448/102907546-7da92980-4476-11eb-9f7a-dfa07832b892.jpg)
 
+```Kotlin
+fun bind(data: CharacterData, listener: CharactersInterface){
+with(itemView){
+txtName.text = data.name
+txtSpecies.text = data.species
+txtStatus.text = data.status
+txtGendere.text = data.gender
 
+val url = data.image
+Glide.with(context)
+.load(url)
+.into(imageThumb)
+[...]
+}
+}
+```
+Secon screen
+![Screenshot_20201222-165052_RickAndMortyA](https://user-images.githubusercontent.com/75754448/102908033-2bb4d380-4477-11eb-946f-03da08a6f6b8.jpg)
+
+```Kotlin
+private fun updateUI(){
+viewModel.characterData.observe(this, Observer{
+if(it != null){
+txtNameSingle.text = it.name
+txtLocationSingle.text = it.location.name
+txtSpeciesSingle.text = it.species
+txtOriginSingle.text = it.origin.name
+
+Glide.with(this)
+.load(it.image.circleCrop()
+.into(imageThumbSingle)
+[...]
+}
+}
+```
 
