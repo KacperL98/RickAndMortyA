@@ -8,6 +8,7 @@ The data was taken from
 https://rickandmortyapi.com/api/character/?page=1
 
 The color of the image depend on the characters status, Alive - Green, Dead - Red, Unknown - Gray.
+
 Object created
 ->
 ```Kotlin
