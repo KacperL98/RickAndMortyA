@@ -13,7 +13,19 @@ Object created
 ```Kotlin
 object RickAndMortyStatus{
 fun getStatusColor(status:String) : Int{
+    return when(status){
+    "unknown" -> R.color.color1
+    "Dead" -> R.color.color2
+    "Alive" -> R.color.color3
+    else -> R.color.Black
+}
+}
+}
+```
+ And going to RecyclerViewAdapter
+ 
+```Kotlin
+viewStatus.setBackgroundColor(ContextCompat.getColor(
+context, RickAndMortyStatus.getStatusColor(data.status)
+```
 
-}
-}
-}
