@@ -7,6 +7,10 @@ The project was created in activities.After clicking on the "tile" you will be t
 The data was taken from
 https://rickandmortyapi.com/api/character/?page=1
 
+
+### Gif's 💡
+
+
 The color of the image depend on the characters status, Alive - Green, Dead - Red, Unknown - Gray.
 
 Object created
@@ -29,4 +33,14 @@ fun getStatusColor(status:String) : Int{
 viewStatus.setBackgroundColor(ContextCompat.getColor(
 context, RickAndMortyStatus.getStatusColor(data.status)
 ```
+
+The same in SingleCharacterActivity
+```Kotlin
+imageThumbSingle.setBackgroundColor(
+ContextCompat.getColor(
+this, RickAndMortyStatus.getStatusColor(it.status)
+```
+
+
+
 
