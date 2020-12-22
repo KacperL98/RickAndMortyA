@@ -11,6 +11,7 @@ https://rickandmortyapi.com/api/character/?page=1
 ### Gif's 💡
 
 
+### Color
 The color of the image depend on the characters status, Alive - Green, Dead - Red, Unknown - Gray.
 
 Object created
