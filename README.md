@@ -49,7 +49,7 @@ this, RickAndMortyStatus.getStatusColor(it.status)
 
 ### Data
 
-Data displayed from the first screen on the RecyclerViewAdapter(item_character.xml)
+Data displayed from the first screen on the RecyclerViewAdapter (item_character.xml)
 
 ```Kotlin
 fun bind(data: CharacterData, listener: CharactersInterface){
@@ -67,7 +67,7 @@ Glide.with(context)
 }
 }
 ```
-Second screen SingleActivityCharacter(activity_single_character.xml)
+Second screen SingleActivityCharacter (activity_single_character.xml)
 
 ```Kotlin
 private fun updateUI(){
