@@ -4,4 +4,16 @@
 
 The project was created in activities.After clicking on the "tile" you will be taken to the second layout. 
 
-https://rickandmortyapi.com/api/
+The data was taken from
+https://rickandmortyapi.com/api/character/?page=1
+
+The color of the image depend on the characters status, Alive - Green, Dead - Red, Unknown - Gray.
+Object created
+->
+```Kotlin
+object RickAndMortyStatus{
+fun getStatusColor(status:String) : Int{
+
+}
+}
+}
