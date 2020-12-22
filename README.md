@@ -14,7 +14,7 @@ bvsbvbsivb
 ### Gif's 💡
 
 
-### Color #28a745
+### Color
 The color of the image depend on the characters status, Alive - Green, Dead - Red, Unknown - Gray.
 
 Object created
@@ -45,6 +45,10 @@ ContextCompat.getColor(
 this, RickAndMortyStatus.getStatusColor(it.status)
 ```
 
+### Data
+
+
+the data displayed in the first hit in the adapter
 
 
 
