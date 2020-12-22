@@ -7,6 +7,9 @@ The project was created in activities.After clicking on the "tile" you will be t
 The data was taken from
 https://rickandmortyapi.com/api/character/?page=1
 
+<div class="text-white bg-blue mb-2">
+  .text-white on .bg-blue
+</div>
 
 ### Gif's 💡
 
