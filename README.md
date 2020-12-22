@@ -13,6 +13,8 @@ bvsbvbsivb
 
 ### Gif's 💡
 
+![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/75754448/102908816-43408c00-4478-11eb-9211-b4a5c5742a97.gif)
+
 
 ### Color
 The color of the image depend on the characters status, Alive - Green, Dead - Red, Unknown - Gray.
@@ -49,8 +51,6 @@ this, RickAndMortyStatus.getStatusColor(it.status)
 
 Data displayed from the first screen on the adapter
 
-![Screenshot_20201222-165047_RickAndMortyA](https://user-images.githubusercontent.com/75754448/102907546-7da92980-4476-11eb-9f7a-dfa07832b892.jpg)
-
 ```Kotlin
 fun bind(data: CharacterData, listener: CharactersInterface){
 with(itemView){
@@ -67,8 +67,7 @@ Glide.with(context)
 }
 }
 ```
-Secon screen
-![Screenshot_20201222-165052_RickAndMortyA](https://user-images.githubusercontent.com/75754448/102908033-2bb4d380-4477-11eb-946f-03da08a6f6b8.jpg)
+Second screen
 
 ```Kotlin
 private fun updateUI(){
